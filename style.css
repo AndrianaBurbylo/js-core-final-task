@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 800px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-size: 80px;
+    font-weight: normal;
+}
+button{
+    margin: 0 10px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+.block{
+    width: 300px;
+    height: 300px;
+    box-sizing: content-box;
+    background-color: rgb(220, 220, 220);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+}
+
+.block div{
+    float: left;
+    width: 75px;
+    height: 75px;
+    background: url(arsenal.png) no-repeat;
+}
+
+.hide{
+    display: none;
+}
+
+#one{
+    background-position: 0 0;
+}
+#two{
+    background-position: -75px 0;
+}
+#three{
+    background-position: -150px 0;
+}
+#four{
+    background-position: -225px 0;
+}
+#five{
+    background-position: 0 -75px;
+}
+#six{
+    background-position: -75px -75px;
+}
+#seven{
+    background-position: -150px -75px;
+}
+#eight{
+    background-position: -225px -75px;
+}
+#nine{
+    background-position: 0 -150px;
+}
+#ten{
+    background-position: -75px -150px;
+}
+#eleven{
+    background-position: -150px -150px;
+}
+#twelve{
+    background-position: -225px -150px;
+}
+#thirteen{
+    background-position: 0 -225px;
+}
+#fourteen{
+    background-position: -75px -225px;
+}
+#fifteen{
+    background-position: -150px -225px;
+}
+#sixteen{
+    background-position: -225px -225px;
+}
